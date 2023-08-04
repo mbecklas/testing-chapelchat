@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-messages {
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+html{
+    height: 100%;
+}
+body{
+    background-image:url("atac.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color:red
+}
